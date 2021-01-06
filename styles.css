@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: #eff8ff;
+}
+hr {
+    width: 50%;
+    align-self: center;
+}
+h1 {
+    margin: 2rem auto;
+}
+h6 {
+    margin: 4rem auto auto auto;
+}
+p {
+    font-weight: bold;
+}
+.form-check{
+    float: right;
+}
+#date {
+    color: #ff4646;
+}
+#day {
+    color: royalblue;
+}
+.clock {
+    margin: 2rem auto auto auto;
+    width: 60%;
+    border-radius: 20%;
+    background-color: #f5f4f4;
+}
+.clock h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    color: #433d3c;
+}
+
+@media (max-width: 1028px) {
+    .clock {
+        margin: 4rem auto auto auto;
+        width: 100%;
+    }
+    .card h1 {
+        font-size: 1.5rem;
+    }
+}
